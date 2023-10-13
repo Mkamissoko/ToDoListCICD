@@ -69,9 +69,6 @@
     <ItemGroup>
       <None Include="packages.config" />
     </ItemGroup>
-    <ItemGroup>
-      <Content Include="worflows\main.yml" />
-    </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
       <PropertyGroup>
